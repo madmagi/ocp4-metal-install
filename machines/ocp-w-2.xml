@@ -32,7 +32,7 @@
         <emulator>/usr/bin/qemu-system-x86_64</emulator>
         <disk type="file" device="disk">
             <driver name="qemu" type="qcow2"/>
-            <source file="/var/lib/libvirt/images/ocp-cp-1.qcow2"/>
+            <source file="/var/lib/libvirt/images/ocp-w-2.qcow2"/>
             <target dev="hda" bus="ide"/>
             <boot order="2"/>
             <address type="drive" controller="0" bus="0" target="0" unit="0"/>
@@ -68,7 +68,7 @@
             <address type="pci" domain="0x0000" bus="0x00" slot="0x06" function="0x0"/>
         </controller>
         <interface type="network">
-            <mac address="52:54:00:46:0c:01"/>
+            <mac address="52:54:00:46:00:02"/>
             <source network="ocp"/>
             <model type="virtio"/>
             <address type="pci" domain="0x0000" bus="0x00" slot="0x03" function="0x0"/>
