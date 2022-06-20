@@ -1,6 +1,6 @@
 <domain type="kvm">
     <name>ocp-w-2</name>
-    <uuid>6329c41b-6679-4990-bf38-39b784c1ac01</uuid>
+    <uuid>6329c41b-6679-4990-bf38-39b784c10002</uuid>
     <metadata>
         <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
             <libosinfo:os id="http://redhat.com/rhel/unknown"/>
