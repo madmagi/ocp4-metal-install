@@ -1,5 +1,5 @@
 <domain type="kvm">
-    <name>ocp-bootstrap</name>
+    <name>ocp-cp-1</name>
     <uuid>6329c41b-6679-4990-bf38-39b784c1ac01</uuid>
     <metadata>
         <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
@@ -24,9 +24,6 @@
         <timer name="pit" tickpolicy="delay"/>
         <timer name="hpet" present="no"/>
     </clock>
-    <on_poweroff>destroy</on_poweroff>
-    <on_reboot>restart</on_reboot>
-    <on_crash>destroy</on_crash>
     <pm>
         <suspend-to-mem enabled="no"/>
         <suspend-to-disk enabled="no"/>
