@@ -13,6 +13,8 @@
         <type arch="x86_64" machine="pc-i440fx-impish">hvm</type>
         <bootmenu enable="no"/>
     </os>
+    <on_poweroff>preserve</on_poweroff>
+    <on_reboot>preserve</on_reboot>
     <features>
         <acpi/>
         <apic/>
