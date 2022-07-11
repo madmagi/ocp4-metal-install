@@ -13,7 +13,7 @@
         <type arch="x86_64" machine="pc-i440fx-impish">hvm</type>
         <bootmenu enable="no"/>
     </os>
- 
+
     <features>
         <acpi/>
         <apic/>
