@@ -67,7 +67,7 @@
         </disk>
         <disk type="file" device="cdrom">
             <driver name="qemu" type="raw"/>
-            <source file="/var/lib/libvirt/images/rhcos-live.x86_64.iso"/>
+            <source file="/var/lib/libvirt/images/CentOS-Stream-8-x86_64-latest-dvd1.iso"/>
             <backingStore/>
             <target dev="hdb" bus="ide"/>
             <readonly/>
